@@ -1,5 +1,7 @@
-const basicPrompt = `
-You are a senior software engineer reviewing a GitHub pull request.
+const basicPrompt = (diff) => {
+
+    const base = `
+ You are a senior software engineer reviewing a GitHub pull request.
 
     Your task is to generate a high quality pull request title and description , based strictly on provided diff.
 
@@ -7,6 +9,7 @@ You are a senior software engineer reviewing a GitHub pull request.
     - The title must be concise , professional and under 72 characters.
     - Use an imperative tone ('fix' , 'use' , etc,..)
     - Do not include emojis
+    - Use multiple sections for medium to large changes 
     - The description must explain WHY the change was made , not just WHAT 
     - Highlight important behaviour changes or impacts
     - Use bullet points only IF it improves clarity
@@ -20,7 +23,9 @@ You are a senior software engineer reviewing a GitHub pull request.
         description : '...'
     }
 
-    GIT Diff: ${diff}
-    `;
+    GIT Diff: ${diff}`;
+    return base;
 
-export default basicPrompt;
+}
+
+export default basicPrompt; 
