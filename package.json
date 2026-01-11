@@ -1,16 +1,13 @@
 {
-  "name": "prgen",
+  "name": "prcraft",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "",
+  "description": "AI powered PR title and description generator",
+  "license": "MIT",
+  "author": "Mohammed Affan",
   "type": "module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
-    "prgen": "./index.js"
+    "prcraft": "./index.js"
   },
   "dependencies": {
     "chalk": "^5.6.2",
@@ -18,5 +15,26 @@
     "dotenv": "^17.2.3",
     "groq-sdk": "^0.37.0",
     "simple-git": "^3.30.0"
-  }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohdaffann/prcraft.git"
+  },
+  "homepage": "https://prcraft-site.vercel.app/",
+  "keywords": [
+    "git",
+    "github",
+    "groq",
+    "ai",
+    "cli",
+    "pr",
+    "pull-request"
+  ],
+  "files": [
+    "*.js",
+    "prompts/"
+  ]
 }
