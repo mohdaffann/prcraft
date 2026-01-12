@@ -4,6 +4,23 @@
  <div>
     <p>Bored of writing manual PRs ? Just prcraft it</p>
  </div>
+ <div>
+   <a href="https://www.npmjs.com/package/prcraft" target="_blank" rel="noopener">
+    <img src="https://img.shields.io/npm/v/prcraft" alt="npm version">
+  </a>
+
+  <a href="https://www.npmjs.com/package/prcraft" target="_blank" rel="noopener">
+    <img src="https://img.shields.io/npm/dt/prcraft" alt="npm downloads">
+  </a>
+
+  <a href="https://github.com/yourname/prcraft/stargazers" target="_blank" rel="noopener">
+    <img src="https://img.shields.io/github/stars/mohdaffann/prcraft" alt="GitHub stars">
+  </a>
+
+  <a href="LICENSE" target="_blank" rel="noopener">
+    <img src="https://img.shields.io/npm/l/prcraft" alt="License">
+  </a>
+ </div>
 
 </div>
 
