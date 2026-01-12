@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/npm/dt/prcraft" alt="npm downloads">
   </a>
 
-  <a href="https://github.com/yourname/prcraft/stargazers" target="_blank" rel="noopener">
+  <a href="https://github.com/mohdaffann/prcraft/stargazers" target="_blank" rel="noopener">
     <img src="https://img.shields.io/github/stars/mohdaffann/prcraft" alt="GitHub stars">
   </a>
 
